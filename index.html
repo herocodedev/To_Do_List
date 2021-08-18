@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App_to_do_list</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <section class="todoapp">
+        <header class="header">
+            <h1>todos</h1>
+            <input class="add-todo" placeholder="Add a task..." autofocus>
+            <div class="icon"><i class="fas fa-pen"></i></div>
+        </header>
+        <section class="main">
+            <ul class="todo-list">
+                <li class="completed">
+                    <div class="view">
+                        <div class="icons"><i class="fas fa-star"></i></div>
+                        <input type="checkbox" class="toggle" checked>
+                        <label class="title">Learn JavaScript</label><br>
+                        <button class="close"><i class="fas fa-times"></i></button>
+                        <label class="bonus">VIỆC QUAN TRỌNG CẦN BẠN HOÀN THÀNH SỚM</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="view">
+                        <div class="icons"><i class="fas fa-star"></i></div>
+                        <input type="checkbox" class="toggle">
+                        <label class="title">Learn JavaScript</label><br>
+                        <button class="close"><i class="fas fa-times"></i></button>
+                        <label class="bonus">VIỆC QUAN TRỌNG CẦN BẠN HOÀN THÀNH SỚM</label>
+                    </div>
+                </li>
+
+                <li>
+                    <div class="view">
+                        <input type="checkbox" class="toggle">
+                        <label class="title">Learn JavaScript</label><br>
+                        <button class="close"><i class="fas fa-times"></i></button>
+                        <label class="bonus">VIỆC QUAN TRỌNG CẦN BẠN HOÀN THÀNH SỚM</label>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <footer class="footer">
+            <span class="todo-count"><strong>0</strong> item left</span>
+            <ul class="filters">
+                <li>
+                    <a class="selected" href="#/">All</a>
+                </li>
+                <li>
+                    <a href="#/active">Active</a>
+                </li>
+                <li>
+                    <a href="#/completed">Completed</a>
+                </li>
+            </ul>
+            <button class="clear-completed">Clear completed</button>
+        </footer>
+    </section>
+</body>
+
+</html>
